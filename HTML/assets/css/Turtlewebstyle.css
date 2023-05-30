@@ -152,6 +152,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 5%;
   
 }
 
@@ -199,8 +200,7 @@ header {
     line-height: 1.5;
     margin-bottom: 30px;
     animation: slideInLeft 1s;
-    text-justify: inter-word;
-    word-break: break-all;
+    word-wrap: break-word;
   }
   
   @keyframes slideInRight {
@@ -437,9 +437,7 @@ p {
   margin-top: 5px;
   text-align: center;
   margin-bottom: 50px;
-  word-break: break-all;
   text-align: center;
-  padding: 10px;
   line-height: 40px;
 }
 
@@ -939,7 +937,6 @@ border-radius: 5px;
 }
 
 .product-details h3 {
-  margin-top: 0;
   font-size: 40px;
 }
 
@@ -989,11 +986,11 @@ border-radius: 5px;
   
   .product-details {
     flex: 0 0 70%;
-    padding: 20px;
+    padding:10px;
   }
   
   .product-details h3 {
-    margin-top: 0;
+    font-size: 40px;
   }
   
   .product-details p {
@@ -1014,7 +1011,7 @@ border-radius: 5px;
   
   .product {
     display: flex;
-    border: 1px solid #ddd;
+    border: 1px solid #00aeff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -1045,7 +1042,8 @@ border-radius: 5px;
   
   .product-details {
     flex: 0 0 100%;
-    padding: 20px;
+    margin-left: 10px;
+    padding: 0px;
   }
   
   @media screen and (min-width: 600px) {
@@ -1065,7 +1063,6 @@ border-radius: 5px;
 }
 
   .product-details h3 {
-    margin-top: 0;
     font-size: 27px;
   }
   
