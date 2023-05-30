@@ -110,7 +110,7 @@ body {
 
 
   header {
-    background-color: #208f8a;
+    background-color: #1a242e;
     color: #5f7892;
     text-align: center;
     padding: 100px 0;
@@ -149,7 +149,7 @@ body {
     
     /* Add a hover effect to the header */
     header:hover {
-    background-color: #040f31;
+    background-color: #000000;
     }
     
     /* Add a shadow effect to the header text */

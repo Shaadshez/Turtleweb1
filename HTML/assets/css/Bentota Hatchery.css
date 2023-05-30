@@ -1,5 +1,5 @@
 body {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -109,8 +109,8 @@ body {
 
 
 header {
-  background-color: #208f8a;
-  color: #5f7892;
+  background-color: #193441;
+  color: #6dd1b8;
   text-align: center;
   padding: 100px 0;
   }
@@ -148,7 +148,7 @@ header {
   
   /* Add a hover effect to the header */
   header:hover {
-  background-color: #040f31;
+  background-color: #000000;
   }
   
   /* Add a shadow effect to the header text */
